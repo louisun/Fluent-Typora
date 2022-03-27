@@ -370,8 +370,14 @@ table th:last-child, table td:last-child {
 }
 
 code {
-    background-color: var(--elevated-background);
+    /* background-color: var(--elevated-background); */
     padding: 0 2px 0 2px;
+    background: #8e8fc1;
+    color: #ffffff;
+}
+
+code::selection {
+    color: #000000;
 }
 
 .md-fences {
